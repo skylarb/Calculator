@@ -10,4 +10,12 @@
     <string name="button8">8</string>
     <string name="button9">9</string>
     <string name="button0">0</string>
+    <string name="buttonNeg">+/-</string>
+    <string name="buttonDec">.</string>
+    <string name="buttonPlus">+</string>
+    <string name="buttonMinus">-</string>
+    <string name="buttonMulti">*</string>
+    <string name="buttonDivi">%</string>
+    <string name="buttonClear">Clear</string>
+
 </resources>
