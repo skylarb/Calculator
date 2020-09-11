@@ -17,5 +17,6 @@
     <string name="buttonMulti">*</string>
     <string name="buttonDivi">%</string>
     <string name="buttonClear">Clear</string>
+    <string name="buttonEquals">Equals</string>
 
 </resources>
