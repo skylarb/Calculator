@@ -20,6 +20,7 @@
             android:layout_width="105dp"
             android:layout_height="90dp"
             android:text="@string/button1"
+            android:tag="1"
             app:layout_column="0"
             app:layout_row="2" />
 
@@ -27,6 +28,7 @@
             android:id="@+id/button2"
             android:layout_width="100dp"
             android:layout_height="90dp"
+            android:tag="2"
             android:text="@string/button2" />
 
         <Button
@@ -34,6 +36,7 @@
             android:layout_width="104dp"
             android:layout_height="90dp"
             android:text="@string/button3"
+            android:tag="3"
             app:layout_column="2"
             app:layout_row="2" />
 
@@ -136,25 +139,6 @@
 
     </androidx.gridlayout.widget.GridLayout>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="409dp"
-        android:layout_height="154dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="217dp"
-        android:layout_height="70dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -166,16 +150,43 @@
 
         <Button
             android:id="@+id/buttonClear"
-            android:layout_width="202dp"
-            android:layout_height="68dp"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
             android:text="@string/buttonClear" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/buttonBack" />
 
         <Button
             android:id="@+id/buttonEquals"
             android:layout_width="203dp"
-            android:layout_height="68dp"
+            android:layout_height="match_parent"
             android:layout_marginEnd="4dp"
             android:text="@string/buttonEquals" />
+
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvFormula"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFormula" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
