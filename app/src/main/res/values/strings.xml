@@ -15,7 +15,7 @@
     <string name="buttonPlus">+</string>
     <string name="buttonMinus">-</string>
     <string name="buttonMulti">*</string>
-    <string name="buttonDivi">%</string>
+    <string name="buttonDivi">/</string>
     <string name="buttonClear">Clear</string>
     <string name="buttonEquals">Equals</string>
     <string name="buttonBack">Del</string>
